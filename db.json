@@ -1,0 +1,345 @@
+{
+  "nivelesCarrera": [
+    {
+      "id": 1,
+      "nombre": "Licenciatura/Ingenieria"
+    },
+    {
+      "id": 2,
+      "nombre": "Maestria"
+    },
+    {
+      "id": 3,
+      "nombre": "Doctorado"
+    }
+  ],
+  "carreras": [
+    {
+      "id": 1,
+      "clave": 101,
+      "nombre": "Ingenieria en Sistemas Computacionales",
+      "nivelId": 1
+    },
+    {
+      "id": 2,
+      "clave": 102,
+      "nombre": "Ingenieria en Gestion Empresarial",
+      "nivelId": 1
+    },
+    {
+      "id": 3,
+      "clave": 201,
+      "nombre": "Maestria en Tecnologias de Informacion",
+      "nivelId": 2
+    }
+  ],
+  "docentes": [
+    {
+      "id": 1,
+      "numeroEmpleado": 3001,
+      "nombreCompleto": "Mtra. Laura Perez Medina"
+    },
+    {
+      "id": 2,
+      "numeroEmpleado": 3002,
+      "nombreCompleto": "Dr. Raul Herrera Campos"
+    },
+    {
+      "id": 3,
+      "numeroEmpleado": 3003,
+      "nombreCompleto": "Mtro. Daniel Cruz Aguilar"
+    }
+  ],
+  "tiposParticipacion": [
+    {
+      "id": 1,
+      "nombre": "Servicio social"
+    },
+    {
+      "id": 2,
+      "nombre": "Residencia profesional"
+    },
+    {
+      "id": 3,
+      "nombre": "Servicio social no oficial"
+    },
+    {
+      "id": 4,
+      "nombre": "Residencia profesional no oficial"
+    },
+    {
+      "id": 5,
+      "nombre": "Proyecto de investigacion"
+    }
+  ],
+  "tiposIncidencia": [
+    {
+      "id": 1,
+      "nombre": "Retardo"
+    },
+    {
+      "id": 2,
+      "nombre": "Salida anticipada"
+    },
+    {
+      "id": 3,
+      "nombre": "Falta"
+    },
+    {
+      "id": 4,
+      "nombre": "Fuera de horario"
+    }
+  ],
+  "alumnos": [
+    {
+      "id": 1,
+      "nombreCompleto": "Sofia Martinez Lopez",
+      "numeroControl": "22390001",
+      "carreraId": 1,
+      "semestre": 8
+    },
+    {
+      "id": 2,
+      "nombreCompleto": "Carlos Hernandez Diaz",
+      "numeroControl": "22390002",
+      "carreraId": 1,
+      "semestre": 7
+    },
+    {
+      "id": 3,
+      "nombreCompleto": "Mariana Gomez Torres",
+      "numeroControl": "22390003",
+      "carreraId": 2,
+      "semestre": 6
+    },
+    {
+      "id": 4,
+      "nombreCompleto": "Luis Alberto Chan Pool",
+      "numeroControl": "22390004",
+      "carreraId": 3,
+      "semestre": 2
+    }
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Sistema de registro de visitantes",
+      "descripcion": "Aplicacion para registrar entradas y salidas del Centro de Innovacion.",
+      "fechaInicio": "2026-02-10",
+      "fechaTermino": "2026-06-30",
+      "docenteId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Panel de indicadores academicos",
+      "descripcion": "Dashboard para visualizar indicadores de participacion estudiantil.",
+      "fechaInicio": "2026-03-01",
+      "fechaTermino": "",
+      "docenteId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Inventario de laboratorio",
+      "descripcion": "Control de equipos, prestamos y mantenimiento preventivo.",
+      "fechaInicio": "2026-01-15",
+      "fechaTermino": "2026-05-30",
+      "docenteId": 3
+    }
+  ],
+  "proyectosCarreras": [
+    {
+      "id": 1,
+      "proyectoId": 1,
+      "carreraId": 1
+    },
+    {
+      "id": 2,
+      "proyectoId": 2,
+      "carreraId": 1
+    },
+    {
+      "id": 3,
+      "proyectoId": 2,
+      "carreraId": 2
+    },
+    {
+      "id": 4,
+      "proyectoId": 3,
+      "carreraId": 3
+    }
+  ],
+  "participaciones": [
+    {
+      "id": 1,
+      "alumnoId": 1,
+      "proyectoId": 1,
+      "tipoParticipacionId": 2,
+      "fechaInicio": "2026-02-10",
+      "fechaTermino": "2026-06-30"
+    },
+    {
+      "id": 2,
+      "alumnoId": 2,
+      "proyectoId": 2,
+      "tipoParticipacionId": 1,
+      "fechaInicio": "2026-03-01",
+      "fechaTermino": ""
+    },
+    {
+      "id": 3,
+      "alumnoId": 3,
+      "proyectoId": 2,
+      "tipoParticipacionId": 5,
+      "fechaInicio": "2026-03-15",
+      "fechaTermino": ""
+    },
+    {
+      "id": 4,
+      "alumnoId": 4,
+      "proyectoId": 3,
+      "tipoParticipacionId": 4,
+      "fechaInicio": "2026-01-15",
+      "fechaTermino": "2026-05-30"
+    }
+  ],
+  "horarios": [
+    {
+      "id": 1,
+      "alumnoId": 1,
+      "diaSemana": "Viernes",
+      "entrada1": "08:00",
+      "salida1": "12:00",
+      "entrada2": "",
+      "salida2": ""
+    },
+    {
+      "id": 2,
+      "alumnoId": 2,
+      "diaSemana": "Viernes",
+      "entrada1": "09:00",
+      "salida1": "13:00",
+      "entrada2": "",
+      "salida2": ""
+    },
+    {
+      "id": 3,
+      "alumnoId": 3,
+      "diaSemana": "Viernes",
+      "entrada1": "08:30",
+      "salida1": "12:30",
+      "entrada2": "",
+      "salida2": ""
+    },
+    {
+      "id": 4,
+      "alumnoId": 4,
+      "diaSemana": "Viernes",
+      "entrada1": "10:00",
+      "salida1": "14:00",
+      "entrada2": "",
+      "salida2": ""
+    },
+    {
+      "id": 5,
+      "alumnoId": 1,
+      "diaSemana": "Lunes",
+      "entrada1": "08:00",
+      "salida1": "12:00",
+      "entrada2": "",
+      "salida2": ""
+    },
+    {
+      "id": 6,
+      "alumnoId": 2,
+      "diaSemana": "Lunes",
+      "entrada1": "09:00",
+      "salida1": "13:00",
+      "entrada2": "",
+      "salida2": ""
+    }
+  ],
+  "asistencias": [
+    {
+      "id": 1,
+      "fecha": "2026-06-05",
+      "hora": "08:13",
+      "alumnoId": 1,
+      "tipoRegistro": "Entrada"
+    },
+    {
+      "id": 2,
+      "fecha": "2026-06-05",
+      "hora": "12:00",
+      "alumnoId": 1,
+      "tipoRegistro": "Salida"
+    },
+    {
+      "id": 3,
+      "fecha": "2026-06-05",
+      "hora": "09:25",
+      "alumnoId": 2,
+      "tipoRegistro": "Entrada"
+    },
+    {
+      "id": 4,
+      "fecha": "2026-06-05",
+      "hora": "12:50",
+      "alumnoId": 2,
+      "tipoRegistro": "Salida"
+    },
+    {
+      "id": 5,
+      "fecha": "2026-06-05",
+      "hora": "10:01",
+      "alumnoId": 4,
+      "tipoRegistro": "Entrada"
+    }
+  ],
+  "incidencias": [
+    {
+      "fecha": "2026-06-05",
+      "alumnoId": 1,
+      "tipoIncidenciaId": 1,
+      "horaEntrada": "08:13",
+      "horaSalida": "",
+      "observacion": "Entrada posterior a 10 minutos.",
+      "id": 1
+    },
+    {
+      "fecha": "2026-06-05",
+      "alumnoId": 2,
+      "tipoIncidenciaId": 3,
+      "horaEntrada": "09:25",
+      "horaSalida": "",
+      "observacion": "Entrada posterior a 20 minutos.",
+      "id": 2
+    },
+    {
+      "fecha": "2026-06-05",
+      "alumnoId": 2,
+      "tipoIncidenciaId": 2,
+      "horaEntrada": "",
+      "horaSalida": "12:50",
+      "observacion": "Salida antes de 5 minutos del horario programado.",
+      "id": 3
+    },
+    {
+      "fecha": "2026-06-05",
+      "alumnoId": 3,
+      "tipoIncidenciaId": 3,
+      "horaEntrada": "",
+      "horaSalida": "",
+      "observacion": "No se registro entrada ni salida.",
+      "id": 4
+    },
+    {
+      "fecha": "2026-06-05",
+      "alumnoId": 4,
+      "tipoIncidenciaId": 3,
+      "horaEntrada": "10:01",
+      "horaSalida": "",
+      "observacion": "No se registro salida.",
+      "id": 5
+    }
+  ]
+}
